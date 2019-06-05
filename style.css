@@ -11,7 +11,7 @@ body{
     grid-template-rows: 20vh 15vh 50vh 30vh; 
     grid-gap:10px;
     background-color: black;
-    /* grid-template-columns: 10vw 30vw 40vw 20vw; */
+    grid-template-columns: 25% 25% 25% 24%;
     /* vh para tamanho da tela */
 }
 /* Header */
@@ -64,4 +64,17 @@ nav a{
 }
 nav a:hover{
     color:white;
+}
+section{
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: section;
+}
+section img{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px black;
 }
