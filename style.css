@@ -11,7 +11,7 @@ body{
     grid-template-rows: 20vh 15vh 50vh 30vh; 
     grid-gap:10px;
     background-color: black;
-    grid-template-columns: 25% 25% 25% 24%;
+    grid-template-columns: 25% 25% 25% 25%;
     /* vh para tamanho da tela */
 }
 /* Header */
@@ -42,7 +42,10 @@ section{
 }
 aside{
     grid-area:aside;
+    display: flex;
     background-color:yellow;
+    padding:0 30px;
+    text-align: center;
 }
 footer{
     grid-area:footer;
@@ -66,7 +69,7 @@ nav a:hover{
     color:white;
 }
 section{
-    background-color:white;
+    background-color:grey;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,4 +80,16 @@ section img{
     height: 350px;
     border-radius: 100%;
     box-shadow: 3px 3px 3px black;
+}
+aside{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+}
+aside p{  
+    color: white;
+}
+aside p span{
+    font-style: italic;
+    color:;
 }
