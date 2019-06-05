@@ -48,3 +48,20 @@ footer{
     grid-area:footer;
     background-color: purple;
 }
+nav{
+    align-items: center;
+    background-color:#f67834;
+    display:flex;
+    grid-area: nav;
+    justify-content: space-around;  
+}
+nav a{
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color:white;
+}
