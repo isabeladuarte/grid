@@ -14,10 +14,23 @@ body{
     /* grid-template-columns: 10vw 30vw 40vw 20vw; */
     /* vh para tamanho da tela */
 }
-
+/* Header */
 header{
     grid-area:header;
-    background-color:red;
+    background-color:black;
+    display:flex;
+    justify-content: center;
+}
+header div{
+    background-color: #a5a8b1;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 60%;
+}
+header div img{
+    height:100%;
+    width:130px;
 }
 nav{
     grid-area:nav;
