@@ -8,8 +8,7 @@ body{
                          'footer footer footer footer';
     /* Se quiser que a coluna fique vazia coloque . em vez da palavra */
     /* tem 4 linhas nesse grid-template-areas*/
-    grid-template-rows: 20vh 15vh 50vh 30vh; 
-    grid-gap:10px;
+    grid-template-rows: 20vh 15vh 50vh 30vh;
     background-color: black;
     grid-template-columns: 25% 25% 25% 25%;
     /* vh para tamanho da tela */
@@ -69,7 +68,7 @@ nav a:hover{
     color:white;
 }
 section{
-    background-color:grey;
+    background-color:	#4169E1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,14 +81,27 @@ section img{
     box-shadow: 3px 3px 3px black;
 }
 aside{
-    background-color: grey;
+    background-color:#4169E1;
     display: flex;
     align-items: center;
 }
 aside p{  
     color: white;
+    font-size:20px;
 }
 aside p span{
     font-style: italic;
-    color:;
+    color:orangered;
+}
+footer{
+    background-color: grey;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+footer div{
+    display:flex;
+    width: 20%;
+    align-items: center;
+    justify-content: space-around;  
 }
